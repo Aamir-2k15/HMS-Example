@@ -1,0 +1,92 @@
+.control-label {
+    text-transform: capitalize;
+}
+
+label,
+input,
+textarea {
+    font-size: 14px;
+    font-family: Arial !important;
+}
+
+label {
+    font-size: 15px;
+    font-weight: 600 !important;
+    padding: 7px;
+    text-transform: capitalize;
+}
+
+.sec-title {
+    font-family: ABeeZee, Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 35px;
+    letter-spacing: 2px
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 16px 10px;
+    font-size: 15px !important;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+    min-height: 110px;
+}
+
+select {
+    border-radius: .25rem;
+}
+
+#resp {
+    font-size: 16px;
+    font-family: Arial;
+}
+
+div#response-div {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+table,
+tr,
+td {
+    border: none !important;
+}
+
+.submit #submit {
+    padding: 4px 24px;
+    font-size: 16px;
+}
+
+.user-first-name-wrap,
+.user-last-name-wrap,
+.user-admin-color-wrap,
+.user-comment-shortcuts-wrap,
+.user-description-wrap,
+.user-profile-picture {
+    display: none !important;
+}
+.error-message{
+    color: red;
+}
+.error{
+    border: 1px solid red;
+}
+
+a:active,
+a:hover, a {
+    outline: 0;
+    text-decoration: none !important;
+}

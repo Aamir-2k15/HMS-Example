@@ -1,0 +1,86 @@
+.hms-field {
+    box-shadow: 0 0 0 transparent !important;
+    border-radius: 4px !important;
+    border: 1px solid #8c8f94 !important;
+    background-color: #fff !important;
+    color: #2c3338 !important;
+}
+
+table.hms-fields-table input,
+table.hms-fields-table select,
+table.hms-fields-table textarea {
+    width: 360px !important;
+    text-transform: capitalize !important;
+}
+
+.delete_btn {
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 2px solid red;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.images_parent_class {
+    display: inline-block;
+    position: relative;
+    max-width: 150px;
+    max-height: 150px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hms-photo-preview {
+    max-width: 100px !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+tr.user-url-wrap {
+    display: none;
+}
+
+.form-control {
+    min-width: 450px !important;
+    border: 1px solid #ced4da !important;
+}
+.form-table .form-control.half {
+    max-width: 48% !important;
+    min-width: 48% !important;
+}
+.form-table .form-control.half:first-of-type{margin-right:5px;}
+/* tr td {
+    padding: 10px 0 10px 5px;
+    text-transform: capitalize;
+    font-size: 15px !important;
+    font-weight: 600;
+} */
+
+.description {
+    font-size: 11px;
+    color: #999;
+}
+
+form * {
+    font-family: arial, sans-serif !important;
+}
+
+input[type="file"] {
+    font-size: 10px;
+}
+.hms-admin-wrap{margin:20px 0;padding:20px 0;}
+
+label {
+    font-size: 15px;
+    font-weight: 600 !important;
+    padding: 7px;
+    text-transform: capitalize;
+}
+.hms-table{
+    max-width: 60% !important;
+}
